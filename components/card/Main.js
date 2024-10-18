@@ -14,7 +14,7 @@ const Main = () => {
     };
 
     return (
-        <div className="flex flex-col items-center justify-center overflow-hidden py-16">
+        <main className="flex flex-col items-center justify-center overflow-hidden py-16">
             <div className="w-[300px] rounded">
                 {showContact ? (
                     <>
@@ -57,7 +57,7 @@ const Main = () => {
                     {!showContact && <SaveButton />}
                 </div>
             </div>
-        </div>
+        </main>
     );
 };
 export default Main;

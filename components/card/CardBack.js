@@ -15,7 +15,7 @@ const CardBack = () => {
                         <p>COO</p>
                     </div>
                     <div className="flex h-full flex-col justify-center">
-                        <p className="font-semibold text-brand-blue">
+                        <p className="font-semibold text-brand-navy">
                             SOMI Experts GmbH
                         </p>
                         <p className="italic">part of SOMI Group</p>
