@@ -4,7 +4,7 @@ import Flipper from "./Flipper";
 const CardBack = () => {
     return (
         <>
-            <div className="relative mb-5 h-[420px] w-[300px] rounded-md border bg-gray-100 p-4 shadow-md">
+            <div className="relative h-96 w-[300px] rounded-md border bg-gray-100 p-4 shadow-md">
                 <div className="absolute -right-5 -top-5 z-50">
                     <Flipper />
                 </div>
@@ -18,10 +18,7 @@ const CardBack = () => {
                         <p className="font-semibold text-brand-blue">
                             SOMI Experts GmbH
                         </p>
-                        <p className="italic">
-                            <span class="font-mono italic">|</span> part of SOMI
-                            Group
-                        </p>
+                        <p className="italic">part of SOMI Group</p>
                         <p>Kennedyallee 93</p>
                         <p>60596 Frankfurt a. M.</p>
                     </div>

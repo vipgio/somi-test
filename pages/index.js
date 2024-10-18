@@ -1,5 +1,5 @@
-import Main from "@/components/card/Main";
 import Head from "next/head";
+import Main from "@/components/card/Main";
 
 const index = () => {
     return (
@@ -11,9 +11,7 @@ const index = () => {
                     content="initial-scale=1.0, width=device-width"
                 />
             </Head>
-            <div className="flex h-full items-center justify-center">
-                <Main />
-            </div>
+            <Main />
         </>
     );
 };

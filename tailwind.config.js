@@ -10,7 +10,7 @@ module.exports = {
             colors: {
                 brand: {
                     purple: "#a22e5c",
-                    orange: "#f1974c",
+                    orange: "#e3802d",
                     teal: "#008996",
                     blue: "#568ab6",
                     navy: "#2e598e",
@@ -22,6 +22,9 @@ module.exports = {
             },
             fontFamily: {
                 poppins: ["Poppins", "sans-serif"],
+            },
+            fontSize: {
+                xxs: ".625rem",
             },
         },
     },

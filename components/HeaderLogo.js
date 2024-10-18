@@ -4,7 +4,7 @@ const HeaderLogo = () => {
     return (
         <>
             <div className="relative m-2 w-full">
-                <Image src={HeaderLogoSVG} layout="fill" />
+                <Image src={HeaderLogoSVG} alt="Header Logo" fill priority />
             </div>
         </>
     );
