@@ -1,5 +1,5 @@
 import Image from "next/image";
-import FlipIcon from "@/assets/images/icon_flip.svg";
+import FlipIcon from "@/public/images/icon_flip.svg";
 
 const Flipper = () => {
     return (

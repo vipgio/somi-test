@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ProfileImage from "@/assets/images/businesscard_profile.webp";
+import ProfileImage from "@/public/images/businesscard_profile.webp";
 import Flipper from "./Flipper";
 const CardFront = () => {
     return (

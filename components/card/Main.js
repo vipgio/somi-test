@@ -14,11 +14,14 @@ const Main = () => {
     };
 
     return (
-        <main className="flex flex-col items-center justify-center overflow-hidden py-16">
+        <main className="flex flex-col items-center justify-center">
             <div className="w-[300px] rounded">
                 {showContact ? (
                     <>
-                        <ContactCard setShowContact={setShowContact} />
+                        <ContactCard
+                            showContact={showContact}
+                            setShowContact={setShowContact}
+                        />
                     </>
                 ) : (
                     <div className="relative mb-1 flex h-96 items-center justify-center">
@@ -49,13 +52,14 @@ const Main = () => {
                     </div>
                 )}
 
-                <div className="flex justify-between gap-5 pt-5">
-                    <ContactButton
-                        showContact={showContact}
-                        setShowContact={setShowContact}
-                    />
-                    {!showContact && <SaveButton />}
-                </div>
+                {!showContact && (
+                    <div className="flex justify-between gap-5 pt-5">
+                        <>
+                            <ContactButton setShowContact={setShowContact} />
+                            <SaveButton />
+                        </>
+                    </div>
+                )}
             </div>
         </main>
     );

@@ -15,7 +15,7 @@ const CardBack = () => {
                         <p>COO</p>
                     </div>
                     <div className="flex h-full flex-col justify-center">
-                        <p className="font-semibold text-brand-navy">
+                        <p className="font-semibold text-brand-blue">
                             SOMI Experts GmbH
                         </p>
                         <p className="italic">part of SOMI Group</p>
@@ -34,7 +34,7 @@ const CardBack = () => {
                         </div>
                         <div className="flex items-center">
                             <FaMobileAlt />
-                            <a href="tel:+49 151 10 49 36 95" className="ml-2">
+                            <a href="tel:+4915110493695" className="ml-2">
                                 +49 151 10 49 36 95
                             </a>
                         </div>

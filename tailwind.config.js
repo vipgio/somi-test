@@ -18,10 +18,10 @@ module.exports = {
                 },
             },
             backgroundImage: {
-                gradient: "url('../assets/images/bg_gradient.webp')",
+                gradient: "url('/images/bg_gradient.webp')",
             },
             fontFamily: {
-                poppins: ["Poppins", "sans-serif"],
+                sans: ["Poppins", "sans-serif"],
             },
             fontSize: {
                 xxs: ".625rem",

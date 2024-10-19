@@ -1,5 +1,5 @@
 import Image from "next/image";
-import SaveIcon from "@/assets/images/icon_kontakt_speichern.svg";
+import SaveIcon from "@/public/images/icon_kontakt_speichern.svg";
 const SaveButton = () => {
     return (
         <>
