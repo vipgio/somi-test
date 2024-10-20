@@ -11,7 +11,7 @@ const CardFront = () => {
 
                 <div className="mt-5 flex flex-col items-center justify-center font-poppins">
                     <p>Dipl. Inform.</p>
-                    <p className="font-semibold">Soroosh Sadeghi</p>
+                    <p className="text-xl font-semibold">Soroosh Sadeghi</p>
                     <p>COO</p>
                 </div>
                 <div className="mt-auto overflow-hidden rounded">

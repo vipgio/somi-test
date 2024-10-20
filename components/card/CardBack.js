@@ -38,7 +38,7 @@ const CardBack = () => {
                                 +49 151 10 49 36 95
                             </a>
                         </div>
-                        <div className="flex items-end">
+                        <div className="flex items-center">
                             <MdOutlineMail />
                             <a
                                 href="mailto:soroosh.sadeghi@somi.de"

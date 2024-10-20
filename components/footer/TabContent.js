@@ -4,7 +4,7 @@ const TabContent = ({ tab }) => {
     return (
         <>
             <div className={`flex flex-col border-t-8 ${tab.bg} ${tab.border}`}>
-                <div className="mx-auto mb-8 w-80 p-3 text-gray-100">
+                <div className="mx-auto mb-8 w-80 py-3 text-gray-100">
                     <div className="mt-4 w-28 rounded bg-gray-100 p-3">
                         <Image
                             src={tab.logo}
